@@ -28,8 +28,9 @@ export default class App extends React.Component{
     return (
       <div>
         <MobileBanner 
-            showBanner={bannerShow} //
-            position="bottom"
+            showBanner={bannerShow} 
+            position="top"
+            topStickyBanner={true}
             appTitle='Linked In'
             appDescription='Job Search and Networking'
             appId={{android:'com.linkedin.android',ios:'id288429040'}}
@@ -71,6 +72,19 @@ price | Object | {} | android,ios and Windows| {ios: '$ 10', android: 'FREE',  w
 buttonText | string | 'View' | all type of strings | {'Insall Now'} | App Download Button title
 buttonStyle | Object | {} | {all type of css styles} | {color:'#fff', ...}, | Add style to Download Button
 onInstall | function | {} | {} | {()=>alert('Install Button clicked")}, | Event on Install button Click
+
+### Donate
+
+<p><a href="https://www.paypal.me/ajithab" rel="nofollow"><img height="75" src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" style="max-width:100%;"></a></p>
+
+
+
+## Example
+
+Bottom           |  Top
+:-------------------------:|:-------------------------:
+![](https://github.com/ajith-ab/react-mobile-banner/blob/master/images/bottom.png)  |  ![](https://github.com/ajith-ab/react-mobile-banner/blob/master/images/top.png)
+
 
 ## License
 
