@@ -17,10 +17,11 @@ export default class App extends React.Component{
       <div>
         <MobileBanner 
             showBanner={bannerShow}
-            position="bottom"
+            position="top"
             appTitle='Linked In'
             appDescription='Job Search and Networking'
             appId={{android:'com.linkedin.android',ios:'id288429040'}}
+            price={{android:'FREE',ios:'$ 10'}}
             starRatingCount={4}
             backgroundColor=""
             appIcon={require('./appIcon.png')}

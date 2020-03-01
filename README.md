@@ -49,6 +49,28 @@ export default class App extends React.Component{
 }
 ```
 
+### Available Props
+key props |  type | defualts | available  | example | descriptions
+--- | --- | --- | --- | --- | ---
+showBanner | bool | true | true, false | {true} | to show or hide the Banner
+position | string | 'top' | 'top', 'bottom' | {'bottom'} | Postion of the banner
+topStickyBanner | bool | true | true, false | {true} | stay top of the page
+backgroundColor | string | 'white' | 'black', '#ccc' ...etc | {'#ccc'} | Change the Background Color of the Banner
+appId | Object | {} | android,ios and Windows| {ios: '', android: '',  windows: '', }| Add Appliction Id of the Stores
+closeButtonStyle | Object | {} | {all type of css styles} | {color:'#fff', ...}, | Add style to Close Icon
+onClose | function | {} | {} | {()=>alert('Close clicked")}, | Event on Close button Click
+appIcon | string | '' | png,svg,jpeg,jpg etc.. |  "url" or {require('..path.png')}| App Icon Source
+appIconStyle | Object | {} | {all type of css styles} | {color:'#fff', ...}, | Add style to App Icon
+appTitle | string | 'App Title' | all type of strings | {'Linked In'} | App title
+appTitleStyles | Object | {} | {all type of css styles} | {color:'#fff', ...}, | Add style to App Title
+appDescription | string | 'App Descriptions' | all type of strings | {'App  Developer Company'} | App Descriptions
+appDescriptionStyle | Object | {} | {all type of css styles} | {color:'#fff', ...}, | Add style to App Descriptions
+starRating | bool | true | true, false | {true} | to show or hide the Rating Stars
+starRatingCount | number | 5 | 1 - 5 | {4} | Ratings of Applications out of 5 star
+price | Object | {} | android,ios and Windows| {ios: '$ 10', android: 'FREE',  windows: '$ 23', }| Add Price to Apps
+buttonText | string | 'View' | all type of strings | {'Insall Now'} | App Download Button title
+buttonStyle | Object | {} | {all type of css styles} | {color:'#fff', ...}, | Add style to Download Button
+onInstall | function | {} | {} | {()=>alert('Install Button clicked")}, | Event on Install button Click
 
 ## License
 
