@@ -18,6 +18,7 @@ export default class App extends React.Component{
         <MobileBanner 
             showBanner={bannerShow}
             position="top"
+            topStickyBanner={true}
             appTitle='Linked In'
             appDescription='Job Search and Networking'
             appId={{android:'com.linkedin.android',ios:'id288429040'}}
