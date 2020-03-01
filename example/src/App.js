@@ -20,7 +20,7 @@ export default class App extends React.Component{
             position="bottom"
             appTitle='Linked In'
             appDescription='Job Search and Networking'
-            appId={{android:'com.facebook.katana'}}
+            appId={{android:'com.linkedin.android',ios:'id288429040'}}
             starRatingCount={4}
             backgroundColor=""
             appIcon={require('./appIcon.png')}

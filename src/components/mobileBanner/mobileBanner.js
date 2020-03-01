@@ -66,7 +66,7 @@ class MobileBanner extends Component {
             if(Os == 'android'){
                 osObjects.url = `http://play.google.com/store/apps/details?id=${appId[Os]}`;
             }else if(Os == 'ios'){
-                osObjects.url = `https://itunes.apple.com/${appId[Os]}/app/id`;
+                osObjects.url = `https://apps.apple.com/in/app/${appId[Os]}`;
             }else if(Os == 'ios'){
                 osObjects.url = `http://www.windowsphone.com/s?appid=${appId[Os]}`;
             }
