@@ -1,5 +1,4 @@
 import React from 'react'
-
 import MobileBanner from 'react-mobile-banner';
 
 export default class App extends React.Component{
