@@ -138,7 +138,7 @@ class MobileBanner extends Component {
 
 
 MobileBanner.propTypes = {
-    showBanner: PropTypes.string,
+    showBanner: PropTypes.bool,
     position: PropTypes.string,
     topStickyBanner: PropTypes.bool,
     backgroundColor: PropTypes.string,
