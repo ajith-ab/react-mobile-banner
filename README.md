@@ -83,7 +83,7 @@ onInstall | function | {} | {} | {()=>alert('Install Button clicked")}, | Event 
 
 Bottom           |  Top
 :-------------------------:|:-------------------------:
-![](https://github.com/ajith-ab/react-mobile-banner/blob/master/images/bottom.png)  |  ![](https://github.com/ajith-ab/react-mobile-banner/blob/master/images/top.png)
+![](https://raw.githubusercontent.com/ajith-ab/react-mobile-banner/master/images/bottom.png)  |  ![](https://raw.githubusercontent.com/ajith-ab/react-mobile-banner/master/images/top.png)
 
 
 ## License
